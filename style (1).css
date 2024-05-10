@@ -1,0 +1,88 @@
+/* style.css */
+
+/* Estilos generales para toda la página */
+body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+    }
+    
+    header {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    nav {
+        background-color: #555;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    nav li {
+        float: left;
+    }
+    
+    nav a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    nav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    
+    /* Estilos para la sección 5 y el formulario */
+    #seccion5 {
+        max-width: 600px;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    #seccion5 h2 {
+        color: #333;
+    }
+    
+    #contactForm {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    
+    #contactForm label {
+        display: block;
+        margin-bottom: 8px;
+        color: #555;
+    }
+    
+    #contactForm input,
+    #contactForm textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 12px;
+        box-sizing: border-box;
+    }
+    
+    #contactForm input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+    }
+    
+    #contactForm input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+    
