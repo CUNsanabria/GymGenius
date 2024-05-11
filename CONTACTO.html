@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO-GYM GINIUS</title>
+    <LINK REL=StyleSheet HREF="CSS/style.css">
+        
+        
+    
+        
+</head>
+
+<body>
+<br>
+    <div id="header">
+        <ul class="nav">
+            <li><a href="gym genius.html">INICIO</a></li>
+            <li><a href="QuienesSomos.html">  QUIENES SOMOS</a></li>
+            <li><a href="SERVICIOS.html">SERVICIOS</a></li>
+            <li><a href="">INICIO SE SESION</a></li>
+            <li><a href="CONTACTO.html">CONTACTENOS</a></li> 
+            
+        </ul>
+    </div>
+
+
+    </centre>
+    
+    
+
+    <section>
+        <centre><h1>CONTACTO</h1></centre>
+            
+            <centre><h1></h1>gym genius</h1></centre>
+
+        
+
+    </section> 
+         
+
+    
+
+    <section id="seccion5">
+        <h2>Sección 5</h2>
+        <p>Contactenos...</p>
+
+        <form id="contactForm" action="./include/procesar_formulario.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <input type="submit" value="Enviar">
+                    </form>   
+    </section>
+
+    <section id="seccion4">
+        <h2>Sección 4</h2>
+        <p>Contenido de la sección 4...</p>
+        <HI>formulario</HI>
+    </section>
+
+       
+    </section>
+    
+    <footer>
+        <p><table style="background-color:#3868ec">  
+            <tr><th>Name</th><th>Job Title</th>
+               <th>Email address</th></tr>
+               <tr><td>Anna Fitzgerald</td>
+                   <td>Staff Writer</td><td>example@company.com</td>
+               </tr><tr><td>John Smith</td><td>Marketing Manager</td><td>example2@company.com</td>
+               </tr><tr><td>Zendaya Grace</td><td>CEO</td><td>example2@company.com</td></tr></table>    
+   
+       </section></p>
+    </footer>
+
+    <script>
+        function mostrarSeccion(idSeccion) 
+        {
+            // Ocultar todas las secciones
+            var secciones = document.getElementsByTagName('section');
+            for (var i = 0; i < secciones.length; i++) {
+                secciones[i].style.display = 'none';
+            }
+        
+            // Mostrar la sección seleccionada
+            var seccion = document.getElementById(idSeccion);
+            seccion.style.display = 'block';
+        }
+    </script>
+</body>
+</html>
